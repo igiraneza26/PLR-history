@@ -12,12 +12,15 @@ By using this web application, users can:
 - Access a wealth of curated historical facts and stories about Prince Louis Rwagasore.
 - Learn about the historical context and significance of his actions and leadership.
 - Engage with multimedia content, including articles, videos, and images.
-- Learn about Burundi political landscape
+- Learn about other Burundi political figures and landscape in general.
 
 ## Features
 
 - **Curated Content**: High-quality, well-researched historical facts and stories.
 - **Multimedia Integration**: Videos, images, and articles to enhance learning.
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
 
 ## Deployment Procedure
 
