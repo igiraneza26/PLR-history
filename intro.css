@@ -7,10 +7,30 @@ body {
     font-family: 'Garamond';
     margin: 0;
     padding: 0;
-    display: flex;
 }
 
-.container {
+header{
+    background-color: #037509;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flag img {
+    max-height: 60px;
+}
+
+.title {
+    text-align: center;
+}
+
+.container2 {
     display: flex;
 }
 
@@ -52,10 +72,13 @@ body {
     min-height: 100vh;
 }
 
-.header h1,
-.header h2 {
+.header h1 {
     margin: 0;
-    color: #036708;
+    color: #a21d05;
+}
+.header h3{
+    margin: 0;
+    color: #a58079;
 }
 
 .content-main {
@@ -71,7 +94,9 @@ body {
     color: #037509;
 }
 
-.intro p, .intro ol, .intro ul {
+.intro p,
+.intro ol,
+.intro ul {
     text-align: justify;
 }
 
@@ -90,8 +115,8 @@ body {
 }
 
 .details {
-    border: 2px solid #036708;
-    background-color: #94c996;
+    border: 2px solid #a21d05;
+    padding: 5%;
 }
 
 .details h3,
