@@ -16,7 +16,7 @@ body {
 
 .sidebar {
     width: 200px;
-    background-color: #333;
+    background-color: #a21d05;
     color: white;
     height: 100vh;
     position: fixed;
@@ -52,8 +52,10 @@ body {
     min-height: 100vh;
 }
 
-.header h1 {
+.header h1,
+.header h2 {
     margin: 0;
+    color: #036708;
 }
 
 .content-main {
@@ -63,6 +65,14 @@ body {
 
 .content-details {
     flex: 2;
+}
+
+.intro h2 {
+    color: #037509;
+}
+
+.intro p, .intro ol, .intro ul {
+    text-align: justify;
 }
 
 .photo-details {
@@ -80,13 +90,21 @@ body {
 }
 
 .details {
+    border: 2px solid #036708;
+    background-color: #94c996;
+}
+
+.details h3,
+.details span {
     margin-top: 0;
+    font-weight: bold;
 }
 
 .more {
     padding: 1%;
+    border-top: 1px solid #ccc;
     align-self: flex-end;
-    background-color: lightgray;
+    background-color: #ccc;
 }
 
 .pol-fig {
