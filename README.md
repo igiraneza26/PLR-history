@@ -19,8 +19,8 @@ By using this web application, users can:
 - **Curated Content**: High-quality, well-researched historical facts and stories.
 - **Multimedia Integration**: Videos, images, and articles to enhance learning.
 ![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
+![alt text](/images/image-2.png)
+![alt text](/images/image-3.png)
 
 ## Deployment Procedure
 ### Prerequisites
