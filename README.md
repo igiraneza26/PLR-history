@@ -23,16 +23,32 @@ By using this web application, users can:
 ![alt text](image-2.png)
 
 ## Deployment Procedure
-Doownlaod an install Heroku CLI
-    Run command: npm install -g heroku
-    Verify installation: heroku --version
-
 ### Prerequisites
-The Heroku CLI requires Git, the popular version control system. If you don’t have Git installed, complete:
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/)
+- [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 
-Git installation
-First-time Git setup
+### Installation Steps
 
-### Steps
-
-1.Clone the Repository
+1. Clone the Repository
+   git clone https://github.com/igiraneza26/PLR-history.git
+   cd PLR-history
+2. Create necessary files
+    Profcile
+    index.js
+    package.json
+3. Install dependencies:
+    npm install
+4. Initialize Git Repository
+    git init
+    git add .
+    git commit -m "Initial commit"
+5. Create Heroku app
+    heroku create your-heroku-app-name
+6. Add Heroku remote
+    heroku git:remote -a plr-history
+7. Deploy to Heroku
+    git push heroku main  # or `git push heroku master` if you are using the master branch
+8. Open your app
+    heroku open
+    
