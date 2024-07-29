@@ -55,6 +55,10 @@ header {
     padding-top: 20px;
 }
 
+.sidebar h3 {
+    text-align: center;
+}
+
 .sidebar ul {
     list-style-type: none;
     padding: 0;
@@ -69,8 +73,11 @@ header {
     color: white;
     text-decoration: none;
     display: inline-flex;
-    margin-left: 10px;
-    
+}
+
+.material-symbols-outlined {
+    font-size: 18px;
+    margin-right: 5px;
 }
 
 .sidebar ul li a:hover {
@@ -130,6 +137,14 @@ header {
 .details {
     border: 2px solid #a21d05;
     padding: 5%;
+}
+
+.video h3 {
+    text-align: center;
+}
+
+.video {
+    margin: 10px;
 }
 
 .details h3,
