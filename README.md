@@ -23,11 +23,15 @@ By using this web application, users can:
 ![alt text](image-2.png)
 
 ## Deployment Procedure
-
-
+Doownlaod an install Heroku CLI
+    Run command: npm install -g heroku
+    Verify installation: heroku --version
 
 ### Prerequisites
+The Heroku CLI requires Git, the popular version control system. If you don’t have Git installed, complete:
 
+Git installation
+First-time Git setup
 
 ### Steps
 
